@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: white;
+
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: black;
+  font-weight: 800;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #444;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.box
+
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width:95%;
+    height: 800px;
+    padding:10px;
+    background-color:#F1F1F1;
+    border:1px solid #ccc;
+    border-radius:5px;
+
+}
+
+
+
+
+h1{
+  text-align: center;
+  font-family: "Trirong", serif;
+}
+
+.resim1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .smortala {
+   
+    display: flex; 
+     justify-content: center;
+  }
+
+  p {
+    width:500px;
+    text-indent: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
+
+ ol{
+    width:500px;
+    text-indent: 30px;
+    margin-left: auto;
+    margin-right: auto;
+ }

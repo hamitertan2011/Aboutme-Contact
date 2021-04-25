@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Hamit Ertan Özmen</h1>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../aboutme/index.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+    <div class="box">
+<h1>CONTACT</h1>
+<div class="resim">
+<img src="../images/resim2.jpg" alt="Italian Trulli" class="resim" width="400" height="400">
+</div> 
+    <br>
+<form action="/my-handling-form-page" method="post" id="myForm">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_email">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+     <li class="button">
+        <button type="submit">Send your message</button>
+        <button type="reset" onclick="myFunction()">Clear</button>
+      </li>
+    </ul>
+   </form> 
+</div></div>
+
+</body>
+</html>
